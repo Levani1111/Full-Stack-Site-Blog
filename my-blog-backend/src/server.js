@@ -1,11 +1,16 @@
 import express from 'express';
 
 const app = express();
+app.use(express.json());
 
-app.get('/Hello', (req, res) => {
-    res.send('Hello World!');
+app.post('/hello', (req, res) => {
+    res.send(`Hello ${req.body.name}!`);
 });
 
+app.get('/hello/:name', (req, res) => {
+    const { name } = req.params;
+    res.send(`Hello ${name}!!`);
+});
 
 app.listen(8000, () => {
     console.log('Server is running on http://localhost:8000');
