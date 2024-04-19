@@ -115,3 +115,10 @@ p {
   top: 8px;
   right: 8px;
 }
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -19,7 +19,8 @@ const LoginPage = () => {
     }
 
     return (
-        <>
+
+        <div id="login-form">
             <h1>Log In</h1>
             {error && <p className="error">{error}</p>}
             <input
@@ -33,8 +34,8 @@ const LoginPage = () => {
                 onChange={e => setPassword(e.target.value)} />
             <button onClick={logIn}>Log In</button>
             <div><Link to="/create-account">Don't have an account? Create one here</Link></div>
+        </div>
 
-        </>
     );
 }
 
