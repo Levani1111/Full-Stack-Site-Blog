@@ -1,4 +1,13 @@
-# This is Full Stack Blog Site.
+# This is full-stack web application for a blog website.
+
+## Technologies used:
+
+- React
+- Node.js
+- Express
+- MongoDB
+- Firebase (for authentication and login)
+- axios
 
 <!-- ##### TO RUN BACKEND:
 - cd my-blog-backend and run npm install and then `npm run dev`
