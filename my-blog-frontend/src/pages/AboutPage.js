@@ -2,7 +2,7 @@
 const AboutPage = () => {
     return (
         <>
-            <h1>About Me</h1>
+            <h1>About</h1>
             <p>
                 Welcome to my blog! Proin congue
                 ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo.

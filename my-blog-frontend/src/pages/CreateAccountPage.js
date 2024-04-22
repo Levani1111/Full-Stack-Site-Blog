@@ -48,7 +48,7 @@ const CreateAccountPage = () => {
                 value={confirmPassword}
                 onChange={e => setConfirmPassword(e.target.value)} />
             <button onClick={createAccount}>Create Account</button>
-            <div><Link to="/login">Already have an account? Log in here</Link></div>
+            <div className='create-account'><Link to="/login">Already have an account? Log in here</Link></div>
         </div>
 
     );
