@@ -1,4 +1,8 @@
-# This is full-stack web application for a blog website.
+# This project is been under development
+
+#### Full-stack web application.
+
+This is full-stack web application. User can create an account and login to the website. User can add Comment on the articles.
 
 ## Technologies used:
 
@@ -8,6 +12,8 @@
 - MongoDB
 - Firebase (for authentication and login)
 - axios
+
+##### Created by Levani Papashvili @2024
 
 <!-- ##### TO RUN BACKEND:
 - cd my-blog-backend and run npm install and then `npm run dev`
