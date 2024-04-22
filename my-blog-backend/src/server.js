@@ -1,5 +1,17 @@
+import fs from "fs";
+import admin from "firebase-admin";
 import express from "express";
 import { db, connectToDb } from "./db.js";
+
+
+const credentials = JSON.parse(
+    fs.readFileSync("my-blog-backend/credentials.json").toString()
+);
+
+admin.initializeApp({
+    credential: admin.credential.cert(credentials),
+});
+
 
 const app = express();
 app.use(express.json());
